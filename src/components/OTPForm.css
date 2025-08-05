@@ -90,3 +90,73 @@ body, html {
   background-color: #9ca3af;
   cursor: not-allowed;
 }
+
+/* ===== Responsive Media Queries ===== */
+
+/* Extra small devices (≤ 280px - small phones) */
+@media (max-width: 280px) {
+  .otp-container {
+    padding: 1.5rem;
+    border-radius: 15px;
+    max-width: 95%;
+  }
+
+  .otp-container h2 {
+    font-size: 1.2rem;
+  }
+
+  .otp-container input,
+  .otp-container select {
+    padding: 0.65rem;
+    font-size: 0.9rem;
+  }
+
+  .otp-container button {
+    padding: 0.65rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Small devices (phones, ≤ 480px) */
+@media (max-width: 480px) {
+  .otp-container {
+    padding: 2rem;
+    border-radius: 16px;
+    max-width: 95%;
+  }
+
+  .otp-container h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Medium devices (tablets, ≤ 768px) */
+@media (max-width: 768px) {
+  .otp-container {
+    padding: 2rem;
+    max-width: 90%;
+  }
+
+  .otp-container h2 {
+    font-size: 1.4rem;
+  }
+
+  .otp-container button {
+    font-size: 1rem;
+  }
+}
+
+/* Large devices (small laptops, ≤ 1024px) */
+@media (max-width: 1024px) {
+  .otp-container {
+    padding: 2.5rem;
+    max-width: 85%;
+  }
+}
+
+/* Extra large (≥ 1440px) - optional for very wide screens */
+@media (min-width: 1440px) {
+  .otp-container {
+    max-width: 400px;
+  }
+}
